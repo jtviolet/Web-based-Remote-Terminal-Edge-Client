@@ -2,7 +2,10 @@
 The Aperture service started as an open-source, generic, web-based terminal service that I built while at General Electric. The Aperture client is designed to connect to an aperture server, get authorization if this option is added, and create a websocket connection for the purpose of sharing its terminal out to a web interface. This is great for managing devices remotely using a modern, HTML5 interface. The aperture client uses the xterm.js project for terminal emulation.
 
 # Prerequisits
-If you are running the server on Windows then you will need to make sure you have the .NET Framework SDK installed.
+If you are running the server on Windows then you will need to make sure you have the .NET Framework SDK installed. This can be done using the following command:
+```
+npm install --global --production windows-build-tools
+```
 
 # Installation
 This application should be able to run on any Windows or Unix machine. Make sure to fill out your .env and then follow these steps:
