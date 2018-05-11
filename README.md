@@ -7,11 +7,12 @@ If you are running the server on Windows then you will need to make sure you hav
 npm install --global --production windows-build-tools
 ```
 
-# Installation
+# Install and Run
 This application should be able to run on any Windows or Unix machine. Make sure to fill out your .env and then follow these steps:
 ```
 git clone https://github.com/jtviolet/aperture-edge-client.git
 cd aperture-edge-client
+npm start
 ```
 
 # Configuration
@@ -24,9 +25,6 @@ All configuration for the client is stored in `config/config.json`  Here are the
 * `apertureEndpoint`: This is the URL of your Aperture Server that your device will connect to.
 
 # Usage
-```
-npm start
-```
 You will need to have the [aperture-server](https://github.com/jtviolet/aperture-server) running for your device to connect to. The aperture server will also sit and wait for users to connect via a web interface, which I'll be sharing an example in [jtviolet/aperture-client-web](https://github.com/jtviolet/aperture-client-web) soon.
 
 # Contributing
