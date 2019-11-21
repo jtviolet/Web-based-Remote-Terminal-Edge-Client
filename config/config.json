@@ -1,5 +1,5 @@
 {
-    "interface": "en0",
+    "interface": "Ethernet",
     "terminalName": "xterm-256color",
     "terminalColumns": 80,
     "terminalRows": 24,
